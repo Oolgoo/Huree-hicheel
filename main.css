@@ -1,0 +1,85 @@
+body{
+    background: url(./bg.png);
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0rem;
+    border-radius: 10px;
+    padding-top: 2rem;
+}
+.input-container .inputs-1{
+    display: flex;
+}
+.input-container .inputs-2{
+    display: flex;
+    margin-top: -1px;
+}
+.input-container .inputs-2 p{
+    color: black;
+    padding-right: 5px;
+}
+.input-container .inputs-1 p{
+    color: black;
+    padding-right: 5px;
+}
+input{
+    width: 80px;
+    height: 50px;
+    font-size: 1.4rem;
+}
+.table-number{
+    display: flex;
+    gap: 1rem;
+    background-color: rgba(128, 128, 128, 0.089);
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    align-items: center;
+}
+.table-number p{
+    color: green;
+    cursor: pointer;
+}
+.active{
+    background-color:white;
+    padding: 0.2rem 0.2rem;
+    border-radius: 10px;
+}
+.button{
+    color: purple;
+    padding: 0.3rem 0.6rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin-left: 0.6rem;
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.hariu{
+    display: flex;
+    gap: 3rem;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 5rem;
+    background-color: rgba(0, 0, 0, 0.13);
+    border-radius: 50px;
+    font-size: 1.5rem;
+}
+.delete-value{
+    font-size: 1.1rem;
+    color: red;
+    cursor: pointer;
+    font-size: 0.4;
+    background-color: white;
+    padding: 0.3rem 0.7rem;
+    border-radius: 50px;
+}
